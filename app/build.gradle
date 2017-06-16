@@ -32,19 +32,19 @@ dependencies {
 }
 
 ext {
-    bintrayRepo = 'tinkerkitdrivers'
+    bintrayRepo = 'TinkerKitDrivers'
     bintrayName = 'tkbutton'   // Has to be same as your library module name
 
-    publishedGroupId = 'se.wetcat.test'
+    publishedGroupId = 'se.wetcat.tinkerkit'
     libraryName = 'TKButton'
     artifact = 'tkbutton'     // Has to be same as your library module name
 
     libraryDescription = 'Android Things User Space Driver for TinkerKit Button'
 
     // Your github repo link
-    siteUrl = 'https://github.com/TinkerKitDrivers/tkbutton'
-    gitUrl = 'https://github.com/TinkerKitDrivers/tkbutton.git'
-    githubRepository = 'TinkerKitDrivers/tkbutton'
+    siteUrl = 'https://github.com/agoransson/TinkerKitDrivers'
+    gitUrl = 'https://github.com/agoransson/TinkerKitDrivers.git'
+    githubRepository = 'agoransson/TinkerKitDrivers'
 
     libraryVersion = '1.0.0'
 
