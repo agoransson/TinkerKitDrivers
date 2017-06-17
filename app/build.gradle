@@ -24,11 +24,10 @@ dependencies {
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compileOnly 'com.google.android.things:androidthings:+'
     testImplementation 'junit:junit:4.12'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 
-    compile project(":tkbutton")
+    implementation project(":tkbutton")
 }
 
 ext {
