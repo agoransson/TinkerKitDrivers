@@ -1,1 +1,1 @@
-n/a
+0.0.1 Initial test publication
