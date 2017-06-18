@@ -36,4 +36,5 @@ dependencies {
 
     implementation project(path: ':tkbutton')
     implementation project(path: ':tkrelay')
+    implementation project(path: ':tkled')
 }

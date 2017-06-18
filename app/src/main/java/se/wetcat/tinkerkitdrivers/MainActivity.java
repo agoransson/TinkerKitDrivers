@@ -12,13 +12,18 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import se.wetcat.tinkerkit.tkbutton.TKButtonDriver;
+import se.wetcat.tinkerkit.tkled.TKLed;
 import se.wetcat.tinkerkit.tkrelay.TKRelay;
 
 public class MainActivity extends Activity {
 
+    private static final String TAG = MainActivity.class.getSimpleName();
+
     private TKButtonDriver tkButtonDriver;
 
     private TKRelay tkRelay;
+
+    private TKLed tkLed;
 
     private DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
     private DatabaseReference mLightRef = mRootRef.child("light");
@@ -34,6 +39,8 @@ public class MainActivity extends Activity {
         tkButtonDriver.register();
 
         tkRelay = new TKRelay("BCM24", TKRelay.Connection.NORMAL_CLOSED);
+
+        tkLed = new TKLed("BCM21");
     }
 
     @Override
@@ -48,8 +55,10 @@ public class MainActivity extends Activity {
 
                     if (mLightState) {
                         tkRelay.toggleOn();
+                        tkLed.toggleOn();
                     } else {
                         tkRelay.toggleOff();
+                        tkLed.toggleOff();
                     }
                 } catch (Exception e) {
                 }
@@ -63,7 +72,7 @@ public class MainActivity extends Activity {
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
-        Log.e("ANTE", "onKeyDown(" + keyCode + ", event)");
+        Log.e(TAG, "onKeyDown(" + keyCode + ", event)");
 
         if (keyCode == KeyEvent.KEYCODE_A) {
             mLightRef.setValue(!mLightState);

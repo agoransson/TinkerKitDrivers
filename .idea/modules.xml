@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/TinkerKitDrivers.iml" filepath="$PROJECT_DIR$/TinkerKitDrivers.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/tkbutton/tkbutton.iml" filepath="$PROJECT_DIR$/tkbutton/tkbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tkled/tkled.iml" filepath="$PROJECT_DIR$/tkled/tkled.iml" />
       <module fileurl="file://$PROJECT_DIR$/tkrelay/tkrelay.iml" filepath="$PROJECT_DIR$/tkrelay/tkrelay.iml" />
       <module fileurl="file://$PROJECT_DIR$/tkslider/tkslider.iml" filepath="$PROJECT_DIR$/tkslider/tkslider.iml" />
     </modules>
