@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "966377837887",
+    "firebase_url": "https://tinkerkitdrivers.firebaseio.com",
+    "project_id": "tinkerkitdrivers",
+    "storage_bucket": "tinkerkitdrivers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966377837887:android:2688d2d75928eb14",
+        "android_client_info": {
+          "package_name": "se.wetcat.tinkerkitdrivers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966377837887-0kg83rm34e48ooq4uud80nf45137k52n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "se.wetcat.tinkerkitdrivers",
+            "certificate_hash": "37c5030d885d81ec715af5defee9ff6d4b43eed6"
+          }
+        },
+        {
+          "client_id": "966377837887-cmb7hcans1k55be04nukjtlk0pv38l3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXmWPdy66GMF7tM2WU1ntpVIJ1oPw64ns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966377837887-cmb7hcans1k55be04nukjtlk0pv38l3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
